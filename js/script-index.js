@@ -53,8 +53,16 @@ function renderRecipe(recipe) {
 */
 function renderActivities(activitiesArray) {
 	console.log('Activities: ', activitiesArray);
-}
 
+	for(var i = 0; i < activitiesArray.length; i++){
+ 		renderActivity(activitiesArray[i]);	
+ 	}
+
+ 	if(activitiesArray.length > 0){
+ 		$('.wrapper-message').hide();
+ 	}
+
+}
 /*
 * Función que se encarga de pintar una actividad
 * Aqui se tiene que crear el HTML que esta en el 
