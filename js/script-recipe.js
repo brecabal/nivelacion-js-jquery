@@ -20,7 +20,9 @@ $(document).ready( function(){
  		$('js-show-make').removeClass('active');
  	});
 	
-
+ 	$('.js-back').click(function() {
+        $(window).attr('location','index.html');
+    });
 
 });
 

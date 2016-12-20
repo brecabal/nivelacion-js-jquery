@@ -2,8 +2,8 @@ $(document).ready( function(){
 
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	
-		$('.js-back').hide();
 		renderActivities(activitiesArray);
+		$('.js-back').hide();
 
 
 	function printNews(){
