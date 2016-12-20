@@ -10,5 +10,20 @@ $(document).ready( function(){
  		$('.page').removeClass('make');
  	});
  
- 	
+ 	$('.js-show-make').on('click', function(){
+ 		$('.js-show-make').addClass('active');
+ 		$('js-show-recipe').removeClass('active');
+ 	});
+
+ 	$('.js-show-recipe').on('click', function(){
+ 		$('.js-show-recipe').addClass('active');
+ 		$('js-show-make').removeClass('active');
+ 	});
+	
+
+
 });
+
+
+
+
